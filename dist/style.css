@@ -100,7 +100,7 @@ img {
 
   transform: translateX(-50%);
   margin: auto;
-  top: 30em;
+  top: 33em;
   left: 40%;
 }
 
@@ -108,7 +108,7 @@ img {
   position: absolute;
   transform: translateX(-50%);
   margin: auto;
-  top: 30em;
+  top: 33em;
   left: 50%;
 }
 
@@ -217,7 +217,12 @@ input:focus {
     margin-top: -1em;
   }
 
+  .dice {
+    top: 26em;
+  }
+
   .dice-1 {
+    top: 26em;
     left: 55%;
   }
 }
