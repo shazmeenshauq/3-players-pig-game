@@ -260,12 +260,16 @@ input:focus {
 }
 
 @media (max-width: 430px) {
+  h1 {
+    font-size: 1em;
+  }
   #confirm {
-    margin-top: -600px;
+    margin-top: -400px;
+
     position: fixed;
     width: 250px;
     min-height: 100px;
-    left: 1%;
+    left: 20%;
   }
   #confirm button {
     background-color: #ffffff;
