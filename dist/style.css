@@ -10,7 +10,7 @@
 body {
   background: url('bh1.jpg') center/cover no-repeat;
   height: 100vh;
-
+  width: 100vw;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1em;
   line-height: 1.5;
@@ -261,20 +261,11 @@ input:focus {
 
 @media (max-width: 430px) {
   #confirm {
-    background-color: #f3f5f6;
-    color: #000000;
-    border: 1px solid black;
-    margin: auto;
-
     margin-top: -600px;
     position: fixed;
     width: 250px;
     min-height: 100px;
     left: 1%;
-
-    padding: 10px 20px 10px;
-    box-sizing: border-box;
-    text-align: center;
   }
   #confirm button {
     background-color: #ffffff;
@@ -290,5 +281,36 @@ input:focus {
   #confirm .message {
     text-align: left;
     font-size: 1.2em;
+  }
+
+  button {
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-top: 1em;
+  }
+  .btn-roll {
+    margin-left: 0;
+  }
+  .container {
+    max-width: 100%;
+    min-height: 330px;
+    margin: 0;
+    padding: 1em;
+  }
+
+  .player-0-panel,
+  .player-1-panel,
+  .player-2-panel {
+    max-width: 120px;
+    padding: 10px;
+  }
+
+  .player-current-box {
+    width: 100px;
+  }
+  input {
+    font-size: 12px;
   }
 }
