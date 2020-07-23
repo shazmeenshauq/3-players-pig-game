@@ -176,6 +176,7 @@ input:focus {
     margin: 0;
     margin-left: 0;
     padding: 1em;
+    min-height: 200px;
   }
   .player-name {
     font-size: 1em;
@@ -218,11 +219,11 @@ input:focus {
   }
 
   .dice {
-    top: 26em;
+    top: 22em;
   }
 
   .dice-1 {
-    top: 26em;
+    top: 22em;
     left: 55%;
   }
 }
@@ -288,7 +289,7 @@ input:focus {
   }
 
   button {
-    padding: 10px;
+    padding: 5px;
     width: 100px;
     height: 40px;
     text-align: center;
@@ -309,12 +310,35 @@ input:focus {
   .player-2-panel {
     max-width: 120px;
     padding: 10px;
+    min-height: 200px;
   }
 
   .player-current-box {
-    width: 100px;
+    width: 90px;
   }
   input {
     font-size: 12px;
+  }
+
+  .dice {
+    left: 20%;
+  }
+  .dice-1 {
+    top: 22em;
+    left: 43%;
+  }
+  .btn {
+    margin-top: 0;
+  }
+
+  .input {
+    float: left;
+    margin-top: 12em;
+    text-align: left;
+  }
+  input {
+    height: 10px;
+    padding: 1em;
+    text-align: left;
   }
 }
