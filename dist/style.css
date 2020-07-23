@@ -21,7 +21,7 @@ h1 {
   color: rgb(14, 13, 13);
 }
 .container {
-  max-width: 70%;
+  max-width: 100%;
   min-height: 330px;
   margin: auto;
   padding: 1em;
@@ -59,7 +59,7 @@ img {
 .player-1-panel,
 .player-2-panel {
   min-height: 400px;
-  width: 300px;
+  width: 290px;
   padding: 1em;
 }
 
@@ -100,7 +100,7 @@ img {
 
   transform: translateX(-50%);
   margin: auto;
-  top: 33em;
+  top: 30em;
   left: 40%;
 }
 
@@ -108,7 +108,7 @@ img {
   position: absolute;
   transform: translateX(-50%);
   margin: auto;
-  top: 33em;
+  top: 30em;
   left: 50%;
 }
 
@@ -172,10 +172,10 @@ input:focus {
   .player-0-panel,
   .player-1-panel,
   .player-2-panel {
-    max-width: 150px;
+    max-width: 160px;
     margin: 0;
+    margin-left: 0;
     padding: 1em;
-    min-height: 200px;
   }
   .player-name {
     font-size: 1em;
@@ -259,7 +259,7 @@ input:focus {
   font-size: 1.2em;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 1em;
   }
